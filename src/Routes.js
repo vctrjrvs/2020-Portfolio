@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Switch } from "@chakra-ui/core";
-import { Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 
 import HomePage from './Pages/HomePage';
 import AboutPage from './Pages/AboutPage.js';
@@ -12,10 +11,10 @@ export default class Routes extends Component {
      render() {
           return (
                <Switch>
-                    <Route exact path='/' component={ HomePage } />
-                    <Route exact path='/about' component={ AboutPage } />
-                    <Route exact path='/portfolio' component={ PortfolioPage } />
-                    <Route exact path='/contact' component={ ContactPage } />
+                    <Route exact path='/' component={HomePage} />
+                    <Route exact path='/about' component={AboutPage} />
+                    <Route exact path='/portfolio' component={PortfolioPage} />
+                    <Route exact path='/contact' component={ContactPage} />
                </Switch>
           );
      };

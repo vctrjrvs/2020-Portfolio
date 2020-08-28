@@ -1,19 +1,13 @@
 import React from 'react'
-import Avatar from './Images/MyAvatar.png'
+import Avatar from '../Images/MyAvatar.png'
 
 
 export default class About extends React.Component {
      render() {
           return (
                <section className='about' id='about'>
-                    <h3
-                         className='section-title'>
-                         A Little About Myself
-                    </h3>
-                    <img
-                         src={Avatar}
-                         className='avatar'
-                         alt='It is me!' />
+                    <h3 className='section-title'>A Little About Myself</h3>
+                    <img src={Avatar} className='avatar' alt='It is me!' />
                     <p>
                          I'm currently a student of the Thinkful Software Engineering Immersion Program.
                          From a young age, I've always been drawn to different forms of creation.

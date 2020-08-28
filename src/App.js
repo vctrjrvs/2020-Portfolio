@@ -1,30 +1,20 @@
 import React from 'react';
 import './App.css';
-import { ThemeProvider, CSSReset } from "@chakra-ui/core"
-import Header from './Header';
-import NavBar from './NavBar';
-import Footer from './Footer';
-import Contact from './Contact';
-import About from './About';
-import Portfolio from './Portfolio';
-import Banner from './Banner';
+import Header from './Components/Constants/Header';
+import NavBar from './Components/Constants/NavBar';
+import Routes from './Routes';
+import FooterMain from './Components/Constants/FooterMain';
 
 
-function App() {
-  return (
-    <ThemeProvider>
-      <CSSReset />
+export default class App extends React.Component {
+  render() {
+    return (
       <div className="App">
         <Header />
         <NavBar />
-        <Banner />
-        <About />
-        <Portfolio />
-        <Contact />
-        <Footer />
+        <Routes />
+        <FooterMain />
       </div>
-    </ThemeProvider>
-  );
+    );
+  }
 }
-
-export default App;

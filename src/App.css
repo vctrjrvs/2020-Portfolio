@@ -1,38 +1,208 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+main {
+  margin: 0 auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-self: center;
+  margin: 0 10px;
+}
+.headline {
+  font-family: "Rock Salt", cursive;
+}
+
+.Header-Link {
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  margin: 10px;
+  font-size: 100px;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.menu {
+  background-color: #380453;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: white;
+  width: 100%;
+  padding: 5px;
+  margin: 15px 0;
+}
+
+.banner {
+  background-color: black;
+  background-image: url("https://github.com/thinkful-ei-orka/Victor-Portfolio/blob/master/images/sunset-wallpaper.jpeg?raw=true");
+  background-position: center;
+  background-size: cover;
+  margin: 0 20px 10px;
+}
+
+section {
+  min-height: 200px;
+  padding: 6% 0;
+  background-color: rgb(25, 0, 74);
+}
+
+.section-title {
+  font-family: "Rock Salt", cursive;
+  margin: 10px;
+}
+
+.project-title {
+  font-size: 2rem;
+}
+
+/* section:nth-child(even) {
+  background-color: #380453;
+}
+
+section:nth-child(odd) {
+  background-color: #600293;
+} */
+
+.chorum-app-container {
+  background-color: #570085;
+}
+
+.stardew-app-container {
+  background-color: #380453;
+}
+
+.diwhy-app-container {
+  background-color: #380453;
+}
+
+.about,
+.portfolio,
+.contact {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+p {
+  margin: 5px auto;
+}
+
+.tech-text {
+  color: gold;
+}
+
+h2,
+.avatar,
+.portfolio-screenshot {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+h2,
+h3,
+h4 {
+  font-weight: 400;
+}
+
+h3,
+h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.avatar {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.portfolio-screenshot {
+  width: 40%;
+}
+
+.github-link,
+.contact-link,
+.live-page-link {
+  color: #ff0d96;
+  font-weight: 400;
+}
+
+.home-link {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+img {
+  display: inline;
+  margin: 10px auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+footer {
+  background-color: #380453;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-link {
+  margin: 5px auto;
+  align-content: center;
+  color: white;
+}
+
+.footer-links {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0;
+  width: auto;
+  padding: 0;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 750px) {
+  .screenshot-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
   }
-  to {
-    transform: rotate(360deg);
+
+  .portfolio-screenshot {
+    width: 40%;
+  }
+
+  body {
+    font-size: 2rem;
+  }
+
+  .footer-links {
+    font-size: 2rem;
   }
 }
