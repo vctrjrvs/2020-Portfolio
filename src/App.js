@@ -9,7 +9,7 @@ import FooterMain from './Components/Constants/FooterMain';
 export default class App extends React.Component {
   render() {
     return (
-      <div className="App">
+      <div className='App'>
         <Header />
         <NavBar />
         <Routes />

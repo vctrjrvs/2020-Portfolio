@@ -26,9 +26,9 @@ export default class ChorumApp extends React.Component {
                          and
                          <b className='tech-text'> React</b>.
                     </p>
-                    <a href='https://github.com/vctrjrvs/Chorum-App' target='' className='github-link'>Server-Side Github Repo</a><br />
-                    <a href='https://github.com/vctrjrvs/chorum-api' target='' className='github-link'>Server-Side Github Repo</a><br />
-                    <a href='https://chorum-app.vctrjrvs.vercel.app' target='' className='live-page-link'>Live Page</a>
+                    <a href='https://github.com/vctrjrvs/Chorum-App' target='_blank' rel='noopener noreferrer' className='github-link'>Client-Side Github Repo</a><br />
+                    <a href='https://github.com/vctrjrvs/chorum-api' target='_blank' rel='noopener noreferrer' className='github-link'>Server-Side Github Repo</a><br />
+                    <a href='https://chorum-app.vctrjrvs.vercel.app' target='_blank' rel='noopener noreferrer' className='live-page-link'>Live Page</a>
                </div>
           )
      }

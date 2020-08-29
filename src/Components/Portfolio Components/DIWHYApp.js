@@ -27,9 +27,9 @@ export default class DIWHYApp extends React.Component {
                          and
                          <b className='tech-text'> React</b>.
                     </p>
-                    <a href='https://github.com/thinkful-ei-orka/diwhy_client_404_TNNF' target='' className='github-link'>Client-Side Github Repo</a><br />
-                    <a href='https://github.com/thinkful-ei-orka/diwhy_server_404_TNNF' target='' className='github-link'>Server-Side Github Repo</a><br />
-                    <a href='https://diwhy-client-404-tnnf.vercel.app/register' target='' className='live-page-link'>Live Page</a>
+                    <a href='https://github.com/thinkful-ei-orka/diwhy_client_404_TNNF' target='_blank' rel='noopener noreferrer' className='github-link'>Client-Side Github Repo</a><br />
+                    <a href='https://github.com/thinkful-ei-orka/diwhy_server_404_TNNF' target='_blank' rel='noopener noreferrer' className='github-link'>Server-Side Github Repo</a><br />
+                    <a href='https://diwhy-client-404-tnnf.vercel.app' target='_blank' rel='noopener noreferrer' className='live-page-link'>Live Page</a>
                </div>
           )
      }

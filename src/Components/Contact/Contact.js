@@ -11,8 +11,8 @@ export default class Contact extends React.Component {
                          as well as making new friends!
                     </p>
                     <a href='mailto:vctrjrvs@gmail.com' className='contact-link'>Send Me An Email!</a>
-                    <a href='https://www.github.com/vctrjrvs' target='' className='contact-link'>Github</a>
-                    <a href='https://www.linkedin.com/in/victorjarvis/' target='' className='contact-link'>LinkedIn</a>
+                    <a href='https://www.github.com/vctrjrvs' target='_blank' rel='noopener noreferrer' className='contact-link'>Github</a>
+                    <a href='https://www.linkedin.com/in/victorjarvis/' target='_blank' rel='noopener noreferrer' className='contact-link'>LinkedIn</a>
                </section>
           )
      }

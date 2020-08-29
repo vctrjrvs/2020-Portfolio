@@ -28,9 +28,9 @@ export default class SRCApp extends React.Component {
                          and
                          <b className='tech-text'> React</b>.
                     </p>
-                    <a href='https://github.com/thinkful-ei-orka/spaced-repetition-client-victor-jonc' target='' className='github-link'>Client-Side Github Repo</a><br />
-                    <a href='https://github.com/thinkful-ei-orka/spaced-repetition-server-victor-jonc' target='' className='github-link'>Server-Side Github Repo</a><br />
-                    <a href='https://spaced-repetition-app-swart.vercel.app/' target='' className='live-page-link'>Live Page</a>
+                    <a href='https://github.com/thinkful-ei-orka/spaced-repetition-client-victor-jonc' target='_blank' rel='noopener noreferrer' className='github-link'>Client-Side Github Repo</a><br />
+                    <a href='https://github.com/thinkful-ei-orka/spaced-repetition-server-victor-jonc' target='_blank' rel='noopener noreferrer' className='github-link'>Server-Side Github Repo</a><br />
+                    <a href='https://spaced-repetition-app-swart.vercel.app' target='_blank' rel='noopener noreferrer' className='live-page-link'>Live Page</a>
                </div>
           )
      }
