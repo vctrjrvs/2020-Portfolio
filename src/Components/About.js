@@ -8,8 +8,9 @@ export default class About extends React.Component {
                <section className='about' id='about'>
                     <h3 className='section-title'>A Little About Myself</h3>
                     <img src={Avatar} className='avatar' alt='This is my avatar!' />
-                    <p>
-                         I'm recent graduate of Thinkful's Software Engineering Immersion Program.
+                    <p>  I'm a recent graduate of Thinkful's Software Engineering Immersion Program.
+                         During those 6 months, I learned more than I ever could have imagined about myself as I dove head-first into the world of development.<br /><br />
+
                          From a young age, I've always been drawn to different forms of creation, from music to art.
                          At one point in my early twenties, I overheard a friend of mine say "Have you ever noticed that he's just always doing <i>something?</i> "<br /><br />
                          And it's true. Whether it be musically related or just being able to assemble something with my
