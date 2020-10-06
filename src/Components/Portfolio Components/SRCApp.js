@@ -5,8 +5,8 @@ import ScreenshotTwo from '../../Images/SRCSS2.png'
 export default class SRCApp extends React.Component {
      render() {
           return (
-               <div className='stardew-app-container'>
-                    <h4 className='project-title'>Stardew Valley Quiz Application</h4>
+               <div className='src-app-container'>
+                    <h4 className='project-title'>Spaced Repetition Quiz Application</h4>
                     <div className='screenshot-container'>
                          <img className='portfolio-screenshot' src={Screenshot} alt='Stardew Quiz Home Page Screenshot' />
                          <img className='portfolio-screenshot' src={ScreenshotTwo} alt='Stardew Quiz Question Screenshot' />
