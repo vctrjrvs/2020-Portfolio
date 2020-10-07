@@ -187,6 +187,13 @@ footer {
   font-size: 1rem;
 }
 
+.site-welcome {
+  margin: 10px;
+  width: auto;
+  padding: 0;
+  font-size: 1rem;
+}
+
 @media screen and (min-width: 750px) {
   .screenshot-container {
     display: flex;

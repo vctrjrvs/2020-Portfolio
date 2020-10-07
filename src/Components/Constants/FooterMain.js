@@ -8,7 +8,6 @@ export default class FooterMain extends React.Component {
                     <a className='footer-link' target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/victorjarvis/'>LinkedIn</a>
                     <a className='footer-link' target='_blank' rel='noopener noreferrer' href='https://www.instagram.com/vctrjrvs/'>Instagram</a>
                     <a className='footer-link' target='_blank' rel='noopener noreferrer' href='https://twitter.com/vctrjrvs'>Twitter</a>
-                    <p className='home-footer'>2020</p>
                </footer>
           )
      }
